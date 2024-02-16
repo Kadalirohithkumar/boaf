@@ -2,11 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body{
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
+
 }
 .text_color{
     color: white;
@@ -22,8 +25,11 @@ body{
     top: 50%;
     left: 10%;
     transform: translateY(-50%);
-    width: 30%;
+    width: 50%;
+    font-size: 25px;
+    color: rgb(226, 220, 220);
 }
+
 
 
 
@@ -200,6 +206,15 @@ body{
 
 
 @media screen and (max-width:426px) {
+
+    .home-heading {
+        position: absolute;
+        top: 50%;
+        left: 2%;
+        transform: translateY(-50%);
+        width: 100%;
+        font-size: 20px;
+    }
     .products{
         display:grid;
         grid-template-columns: repeat(2, 1fr); /* Create three equal columns */
